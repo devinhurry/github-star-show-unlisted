@@ -9,8 +9,8 @@ English | [简体中文](README.zh-CN.md)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-34A853)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![GPT-5.5](https://img.shields.io/badge/GPT--5.5-6686ff)
-![GLM-5.2](https://img.shields.io/badge/GLM--5.2-black)
+![GPT-5.5](https://img.shields.io/badge/GPT-5.5-6686ff)
+![GLM-5.2](https://img.shields.io/badge/GLM-5.2-black)
 
 GitHub lets you organize starred repositories into **Star Lists**, but there's
 no built-in way to see which starred repos _aren't_ in any list. This extension

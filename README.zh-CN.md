@@ -8,8 +8,8 @@
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-34A853)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![GPT-5.5](https://img.shields.io/badge/GPT--5.5-6686ff)
-![GLM-5.2](https://img.shields.io/badge/GLM--5.2-black)
+![GPT-5.5](https://img.shields.io/badge/GPT-5.5-6686ff)
+![GLM-5.2](https://img.shields.io/badge/GLM-5.2-black)
 
 GitHub 允许你将 Star 仓库整理到 **Star List**（星标列表）中，但没有内置功能
 可以查看哪些 Star 仓库*尚未*加入任何列表。本扩展在每个 GitHub 个人主页的
