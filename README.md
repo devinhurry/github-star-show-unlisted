@@ -44,7 +44,7 @@ private lists) and shows only the unlisted ones, paginated locally.
 4. Select this project directory.
 
 The **Unlisted** button will appear on the toolbar of any GitHub profile star
-page, e.g. <https://github.com/devinhurry?tab=stars>.
+page, e.g. `https://github.com/<username>?tab=stars`.
 
 ## How it works
 
@@ -86,9 +86,9 @@ npm install playwright
 node tests/smoke.cjs
 ```
 
-> The test targets a real GitHub profile (`devinhurry?tab=stars`) and requires
-> network access. It injects a mock `user-login` meta tag so the extension
-> treats the session as signed in.
+> The test targets a real public GitHub profile and requires network access.
+> It injects a mock `user-login` meta tag so the extension treats the session
+> as signed in.
 
 ## Limitations
 

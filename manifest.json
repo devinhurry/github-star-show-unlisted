@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "GitHub Star Show Unlisted",
   "version": "1.0.0",
-  "description": "Filter unlisted starred repositories on GitHub profile star pages. Shows only stars not in any of your GitHub Star Lists, with list membership capsules and fast parallel loading.",
+  "description": "Filter unlisted starred repositories on GitHub profile star pages. Shows only stars not in any of your GitHub Star Lists.",
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],

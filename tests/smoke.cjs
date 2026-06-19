@@ -76,19 +76,21 @@ async function main() {
     ],
   });
 
+  const testUser = "torvalds";
+
   try {
     const page = await context.newPage();
-    await page.addInitScript(() => {
+    await page.addInitScript((user) => {
       new MutationObserver(() => {
         if (document.head && !document.querySelector('meta[name="user-login"]')) {
           const meta = document.createElement("meta");
           meta.name = "user-login";
-          meta.content = "devinhurry";
+          meta.content = user;
           document.head.append(meta);
         }
       }).observe(document, { childList: true, subtree: true });
-    });
-    await page.goto("https://github.com/devinhurry?tab=stars", {
+    }, testUser);
+    await page.goto(`https://github.com/${testUser}?tab=stars`, {
       waitUntil: "domcontentloaded",
     });
 
