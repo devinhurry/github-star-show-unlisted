@@ -1,0 +1,97 @@
+.github-star-show-unlisted-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.github-star-show-unlisted-active {
+  color: var(--button-primary-fgColor-rest, var(--color-btn-primary-text));
+  background: var(--button-primary-bgColor-rest, var(--color-btn-primary-bg));
+  border-color: var(
+    --button-primary-borderColor-rest,
+    var(--color-btn-primary-border)
+  );
+}
+
+.github-star-show-unlisted-active:hover:not(:disabled) {
+  background: var(
+    --button-primary-bgColor-hover,
+    var(--color-btn-primary-hover-bg)
+  );
+}
+
+.github-star-show-unlisted-status {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  width: 100%;
+  margin-top: 8px;
+  color: var(--fgColor-muted, var(--color-fg-muted));
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.github-star-show-unlisted-spinner {
+  display: inline-block;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.github-star-show-unlisted-error {
+  color: var(--fgColor-danger, var(--color-danger-fg));
+}
+
+.github-star-show-unlisted-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.github-star-show-unlisted-page-text {
+  color: var(--fgColor-muted, var(--color-fg-muted));
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.github-star-show-unlisted-empty {
+  padding: 32px 0;
+  color: var(--fgColor-muted, var(--color-fg-muted));
+  text-align: center;
+}
+
+.github-star-show-unlisted-capsules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.github-star-show-unlisted-capsule {
+  display: inline-flex;
+  align-items: center;
+  max-width: 200px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 20px;
+  border: 1px solid
+    var(--borderColor-accent-emphasis, var(--color-accent-emphasis));
+  background: var(--bgColor-accent-muted, var(--color-accent-subtle));
+  color: var(--fgColor-accent, var(--color-accent-fg));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 1012px) {
+  .github-star-show-unlisted-controls {
+    margin-top: 0;
+    margin-left: 8px;
+    white-space: nowrap;
+  }
+}
