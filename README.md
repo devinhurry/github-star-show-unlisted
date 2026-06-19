@@ -1,5 +1,7 @@
 # GitHub Star Show Unlisted
 
+English | [简体中文](README.zh-CN.md)
+
 > A Chrome extension that filters **unlisted starred repositories** on GitHub
 > profile star pages — showing only the stars that aren't in any of your GitHub
 > Star Lists.
